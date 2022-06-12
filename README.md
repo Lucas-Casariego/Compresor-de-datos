@@ -1,10 +1,11 @@
+Introducción:
 Este es un trabajo práctico grupal (2 personas) que hicimos en la facultad.
 Este es un compresor de datos hecho en lenguaje C. 
 El mismo va a funcionar para cualquier tipo de archivo y es sin pérdida, es decir, 
 desde el archivo comprimido podemos reconstruir exactamente el original 
 (a diferencia de la compresión con pérdida, por ejemplo el formato JPG para imágenes, que puede perder algunos detalles).
 
-
+Descripción del problema:
 El compresor se basa en la codificación de Huffman. La idea de la misma es analizar la frecuencia con
 la que aparecen los caracteres en el texto de entrada, y optimizar a aquellos que son más frecuentes.
 Mediante un algoritmo (que detallo adelante) se le asigna una secuencia de bits a cada caracter, con
