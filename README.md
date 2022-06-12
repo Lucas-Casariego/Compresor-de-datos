@@ -6,6 +6,7 @@ El mismo va a funcionar para cualquier tipo de archivo y es sin pérdida, es dec
 desde el archivo comprimido podemos reconstruir exactamente el original 
 (a diferencia de la compresión con pérdida, por ejemplo el formato JPG para imágenes, que puede perder algunos detalles).
 
+
 Descripción del problema:
 
 El compresor se basa en la codificación de Huffman. La idea de la misma es analizar la frecuencia con
